@@ -1,0 +1,21 @@
+backend:
+    functions:
+        - entry: index.mjs
+          handler: handler
+          name: server
+          path: server/
+          type: aws
+    language:
+        name: js
+        packageManager: pnpm
+        runtime: nodejs20.x
+    path: .output/
+environment:
+    NITRO_TEST_ENV: 123
+frontend:
+    path: .output/
+    publish: public/
+    subdomain: nitro-app-2323
+name: nitro-app-2323222
+region: eu-central-1
+yamlVersion: 2

@@ -1,0 +1,11 @@
+node_modules
+.nitro
+.output
+dist
+*.log*
+
+.vercel
+.netlify
+.vercel_build_output
+.firebase
+.vercel
